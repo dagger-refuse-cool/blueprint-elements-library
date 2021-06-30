@@ -22,7 +22,7 @@ spec:
       workspace: config
     params:
     - name: url_configmapkey
-      value: GIT_DEV_REPO_URL
+      value: $(GIT_PROVIDER)/$(GIT_ORG)/$(GIT_DEV_REPO_URL)
     - name: revision
       value: master
     - name: subdirectory
@@ -40,7 +40,7 @@ spec:
       workspace: config
     params:
     - name: url_configmapkey
-      value: GIT_OPS_REPO_TEST_URL
+      value: $(GIT_PROVIDER)/$(GIT_ORG)/$(GIT_OPS_REPO_TEST_URL)
     - name: revision
       value: master
     - name: subdirectory
