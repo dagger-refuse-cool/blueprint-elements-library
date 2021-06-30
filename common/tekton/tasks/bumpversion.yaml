@@ -47,7 +47,7 @@ spec:
       name: scratch  
     workingDir: $(workspaces.gitrepos.path)/$(params.subdirectory)
   - name: bump-tag
-    image: quay.io/manuela/bumpversiontask:latest
+    image: quay.io/manuela/bumpversiontask:latest # review: is this supposed to be a static remote image path?
     script: |
       cd /scratch
       echo -e "[bumpversion]\ncurrent_version = $(cat VERSION)" >.bumpversion.cfg
