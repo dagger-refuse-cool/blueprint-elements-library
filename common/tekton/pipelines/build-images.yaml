@@ -14,7 +14,7 @@ spec:
     default: tekton/images/httpd-ionic
   - name: OUTPUT_IMAGE_PROVIDER_CONFIGMAPKEY
     type: string
-    default: quay.io
+    default: IMAGE_PROVIDER
   - name: OUTPUT_IMAGE_ORG_CONFIGMAPKEY
     type: string
     default: IMAGE_ORG
