@@ -14,10 +14,10 @@ spec:
     default: tekton/images/httpd-ionic
   - name: OUTPUT_IMAGE_PROVIDER_CONFIGMAPKEY
     type: string
-    default: IMAGE_PROVIDER
+    default: quay.io
   - name: OUTPUT_IMAGE_ORG_CONFIGMAPKEY
     type: string
-    default: IMAGE_ORG
+    default: redhat-edge-computing
   - name: OUTPUT_IMAGE_NAME_CONFIGMAPKEY
     type: string
     default: httpd-ionic
